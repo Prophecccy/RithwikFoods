@@ -1183,6 +1183,10 @@ footer .logo-img {
     .nav-links {
         display: flex;
     }
+    .logo {
+        margin-left: 24px;
+        outline: none;
+    }
 }
 
 .nav-link {
@@ -1220,7 +1224,7 @@ footer .logo-img {
 }
 
 .mobile-toggle {
-    display: none;
+    display: none !important;
 }
 
 /* Ensure mobile toggle is visible on scrolled header */
