@@ -273,14 +273,14 @@
                             <div class="info-icon"><i class="fa-solid fa-clock"></i></div>
                             <div class="info-text">
                                 <h4>Business Hours</h4>
-                                <p>Monday – Saturday: 10:00 AM – 8:00 PM<br>Sunday: Closed</p>
+                                <p>Monday – Saturday: 10:00 AM – 10:00 PM<br>Sunday: 4:00 PM – 10:00 PM</p>
                             </div>
                         </div>
                         <div class="info-item">
                             <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
                             <div class="info-text">
                                 <h4>Contact</h4>
-                                <p>+91 95381 64120<br>RithwikEnterprises.2023@gmail.com</p>
+                                <p>+91 95381 64120<br>rithwikenterprises.2025@gmail.com</p>
                             </div>
                         </div>
                         <a href="https://maps.app.goo.gl/PeWBkyhcnqWd5tHr6" target="_blank" class="btn btn-primary magnetic" style="margin-top: 20px; width: 100%;">
@@ -352,7 +352,7 @@
                         </li>
                         <li class="footer-contact-item">
                             <i class="fa-solid fa-envelope"></i>
-                            <a href="mailto:RithwikEnterprises.2023@gmail.com">RithwikEnterprises.2023@gmail.com</a>
+                            <a href="mailto:rithwikenterprises.2025@gmail.com">rithwikenterprises.2025@gmail.com</a>
                         </li>
                     </ul>
                 </div>
@@ -385,19 +385,27 @@
         "latitude": 12.963444,
         "longitude": 77.654761
       },
-      "openingHoursSpecification": {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": [
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Thursday",
-          "Friday",
-          "Saturday"
-        ],
-        "opens": "10:00",
-        "closes": "20:00"
-      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "10:00",
+          "closes": "22:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "16:00",
+          "closes": "22:00"
+        }
+      ],
       "sameAs": [
         "https://www.facebook.com/rithwikfoods",
         "https://www.instagram.com/rithwikfoods"
