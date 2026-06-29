@@ -1219,6 +1219,10 @@ footer .logo-img {
     filter: none !important;
 }
 
+.mobile-toggle {
+    display: none;
+}
+
 /* Ensure mobile toggle is visible on scrolled header */
 .scrolled .mobile-toggle, .scrolled-permanent .mobile-toggle {
     color: var(--color-text-main) !important;
