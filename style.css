@@ -1007,7 +1007,7 @@ footer .logo-img {
 
 /* --- Editorial Grid (Legacy removed) --- */
 .editorial-section {
-    background-color: var(--color-white);
+    background: linear-gradient(to bottom, #FFFFFF 0%, var(--color-background) 100%);
     position: relative;
 }
 
@@ -1065,7 +1065,7 @@ footer .logo-img {
 
 /* --- Premium Products Grid --- */
 .collection-section {
-    background-color: var(--color-background);
+    background: linear-gradient(to bottom, var(--color-background) 0%, #FFFFFF 100%);
 }
 
 .collection-header {
@@ -1760,7 +1760,7 @@ footer .logo-img {
 /* Main Footer */
 
 .main-footer {
-    background-color: var(--color-background);
+    background: linear-gradient(to bottom, var(--color-background) 0%, #EFEBE4 100%);
     padding: 80px 0 100px; /* Space for bottom nav */
     border-top: 1px solid var(--glass-border);
 }
@@ -2744,7 +2744,7 @@ footer .logo-img {
 
 /* Store Section Styles */
 .store-section {
-    background-color: var(--color-background);
+    background: linear-gradient(to bottom, #FFFFFF 0%, var(--color-background) 100%);
     position: relative;
     overflow: hidden;
 }
