@@ -23,7 +23,14 @@ class PremiumInteractivity {
                 const rect = m.getBoundingClientRect();
                 const x = e.clientX - rect.left - rect.width / 2;
                 const y = e.clientY - rect.top - rect.height / 2;
-                m.style.transform = `translate3d(${x * 0.3}px, ${y * 0.3}px, 0)`;
+                
+                // Cap the translation to keep it subtle and prevent overflowing containers
+                const maxTranslateX = 12;
+                const maxTranslateY = 8;
+                const translateX = Math.max(-maxTranslateX, Math.min(maxTranslateX, x * 0.15));
+                const translateY = Math.max(-maxTranslateY, Math.min(maxTranslateY, y * 0.15));
+                
+                m.style.transform = `translate3d(${translateX}px, ${translateY}px, 0)`;
             });
             m.addEventListener('mouseleave', () => {
                 m.style.transform = 'translate3d(0, 0, 0)';
